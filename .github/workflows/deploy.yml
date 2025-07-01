@@ -21,5 +21,4 @@ jobs:
           aws-region: us-east-1  
 
       - name:  deploy content to S3 bucket
-        run: aws s3 sync . s3://static-web-github-actions --delete 
-        "Resource": "arn:aws:s3:::static-web-github-actions/*"
+        run: aws s3 sync . s3://static-web-github-actions --delete
