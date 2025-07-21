@@ -77,44 +77,28 @@ jobs:
 
       - name:  deploy content to S3 bucket
         run: aws s3 sync . s3://static-web-github-actions --delete
+```
 
-
-✅ Deployment
+## ✅ Deployment 
 Push your static site code to main branch.
 
 GitHub Actions will trigger and deploy to your S3 bucket.
 
 Visit your CloudFront distribution URL to see changes.
 
-📚 References
-AWS S3 Docs
+```
+## 📚 References
+- AWS S3 Docs
+- AWS CloudFront Docs
+- AWS CLI
 
-AWS CloudFront Docs
+```
 
-AWS CLI
-
-🧑‍💻 Author
-Mairaz Khan
-DevOps & Cloud Enthusiast
-GitHub • LinkedIn
+## 🧑‍💻 Author
+   Mairazul Khan
 
 
 ---
-
-### ✅ Download the README.md
-
-Your download is ready:
-
-👉 [Click here to download `README.md`](sandbox:/mnt/data/Static_Web_App_on_AWS_S3_CloudFront_README.md)
-
-Let me know if you'd like to customize anything!
-
-
-
-
-
-
-
 
 
 
